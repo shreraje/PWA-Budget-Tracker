@@ -2,16 +2,16 @@ const CACHE_NAME = "static-cache-v2";
 const DATA_CACHE_NAME = "data-cache-v1";
 const FILES_TO_CACHE = [
     '/',
-    './index.html',
-    './styles.css',
-    './db.js',
+    '/index.html',
+    '/styles.css',
+    '/db.js',
     '/index.js',
-    './manifest.webmanifest',
+    '/manifest.webmanifest',
     '/icons/icon-192x192.png',
     '/icons/icon-512x512.png',
 ];
 
-//Install function
+//Install event function
 self.addEventListener('install', function(event) {
     event.waitUntil(
         caches.open(CACHE_NAME).then(function (cache) {
@@ -24,7 +24,7 @@ self.addEventListener('install', function(event) {
     self.skipWaiting();
 });
 
-//Activate function
+//Activate event function
 self.addEventListener('activate', function(event) {
     //Check the cached file and delete outdated keys before activating new service worker
     event.waitUntil(
@@ -44,7 +44,7 @@ self.addEventListener('activate', function(event) {
   self.clients.claim();
 });
 
-// Fetch function
+// Fetch event function
 self.addEventListener("fetch", function(event) {
     console.log('show fetch event:', event);
     if (event.request.url.includes("/api/")) {
