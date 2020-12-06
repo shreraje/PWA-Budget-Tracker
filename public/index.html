@@ -44,13 +44,14 @@
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <script src="index.js"></script>
+  <script src="/db.js"></script>
+  <script src="/index.js"></script>
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', function () {
         navigator.serviceWorker.register('sw.js')
           .then(function (reg) {
-            console.log('Service worker file found!', reg);
+            console.log('Service worker file found & registered!', reg);
           },
             function (error) {
               console.log('Service Worker registration failed!')
