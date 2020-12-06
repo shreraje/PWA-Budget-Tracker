@@ -1,11 +1,30 @@
-body {
+*{
+  color: black;
+}
+
+body{
+  background-image: linear-gradient(to right, rgb(3, 19, 54), rgb(111, 101, 252));
   font-size: 120%;
   font-family: Arial;
 }
 
-button, input {
+button {
   font-size: 100%;
   font-family: Arial;
+  border-radius: 21%;
+}
+
+input {
+  font-size: 100%;
+  font-family: Arial;
+}
+
+button:hover{
+  background-color: lightsteelblue;
+  color: red;
+  transform: translateY(-5px);
+  border: 2px solid lightgray;
+  transition: 0.3s;
 }
 
 table {
@@ -13,13 +32,14 @@ table {
 }
 
 td, th {
+  color: aliceblue;
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: teal;
 }
 
 .error {
@@ -33,8 +53,14 @@ tr:nth-child(even) {
 }
 
 .total {
+  color: aliceblue;
   font-size: 150%;
   text-decoration: underline;
+}
+
+#total {
+  color: greenyellow;
+  font-weight: bolder;
 }
 
 .form {
@@ -43,9 +69,14 @@ tr:nth-child(even) {
 }
 
 .transactions {
+  color: aliceblue;
   text-align: left;
   max-height: 300px;
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+}
+
+#myChart {
+  background-color: white;
 }
