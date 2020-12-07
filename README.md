@@ -7,11 +7,19 @@ The main objective of this project is to add functionality to our existing Budge
 
 ## Table of Contents
 * [Description](#description)
+* [User Story](#user-story)
+* [Business Context](#business-context)
 * [Technologies](#technologies)
 * [Contribution](#contribution)
 * [Screenshot](#screenshot)
 * [Links](#links)
 * [Contacts](#contacts)
+
+# User Story
+As a avid traveller, user should be able to track their withdrawals and deposits with or without a data/internet connection so that their account balance is accurate when they are traveling.
+
+# Business Context
+Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
 
 ## Technologies
 - HTML5, CSS, JavaScript, Node.js, MongoDB, IndexDB Storage, Progressive Web App(PWA- Manifest, Service Worker) & Chart.js.
