@@ -18,7 +18,8 @@ The main objective of designming this project is to add functionality to our exi
 
 ## Screenshot
 Deployed application screenshot of home-page:
-![heroku deployed app screenshot](https://user-images.githubusercontent.com/61192734/101300411-5a317e00-37ea-11eb-8285-b9a7b6a18752.png)
+
+![heroku deployed app screenshot](https://user-images.githubusercontent.com/61192734/101300746-7255cd00-37eb-11eb-888e-eca84d6ce174.png)
 
 ## Links
 
