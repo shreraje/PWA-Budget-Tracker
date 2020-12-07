@@ -3,7 +3,7 @@
 <img src="https://img.shields.io/badge/License-GNU AGPLv3.0-blue.svg" alt="License image of GNU AGPLv3.0" />
   
 ## Description
-The main objective of designming this project is to add functionality to our existing Budget Tracker application to allow for offline access and functionality. In this app, the user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+The main objective of this project is to add functionality to our existing Budget Tracker application to allow for offline access and functionality. In this app, the user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
 
 ## Table of Contents
 * [Description](#description)
@@ -17,7 +17,7 @@ The main objective of designming this project is to add functionality to our exi
 - HTML5, CSS, JavaScript, Node.js, MongoDB, IndexDB Storage, Progressive Web App(PWA- Manifest, Service Worker) & Chart.js.
 
 ## Screenshot
-Deployed application screenshot of home-page:
+Deployed application screenshot:
 
 ![heroku deployed app screenshot](https://user-images.githubusercontent.com/61192734/101300746-7255cd00-37eb-11eb-888e-eca84d6ce174.png)
 
