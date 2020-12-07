@@ -15,10 +15,10 @@ The main objective of this project is to add functionality to our existing Budge
 * [Links](#links)
 * [Contacts](#contacts)
 
-# User Story
+## User Story
 As a avid traveller, user should be able to track their withdrawals and deposits with or without a data/internet connection so that their account balance is accurate when they are traveling.
 
-# Business Context
+## Business Context
 Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
 
 ## Technologies
