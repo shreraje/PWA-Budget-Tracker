@@ -14,18 +14,28 @@ button {
   border-radius: 21%;
 }
 
+button:hover{
+  background-color: lightsteelblue;
+  transform: translateY(-5px);
+  border: 2px solid lightgray;
+  transition: 0.3s;
+}
+
+#add-btn {
+  background-color: green;
+  color: aliceblue;
+}
+
+#sub-btn {
+  background-color: red;
+  color: aliceblue;
+}
+
 input {
   font-size: 100%;
   font-family: Arial;
 }
 
-button:hover{
-  background-color: lightsteelblue;
-  color: red;
-  transform: translateY(-5px);
-  border: 2px solid lightgray;
-  transition: 0.3s;
-}
 
 table {
   width: 100%;
@@ -78,5 +88,5 @@ tr:nth-child(even) {
 }
 
 #myChart {
-  background-color: white;
+  background-color: aliceblue;
 }
